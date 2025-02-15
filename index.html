@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online shopping</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <link rel="web icon" href="Webicon.jpg">
+    <style>
+     
+        
+        @media (max-width: 991.98px) {
+  .selector {
+    padding: calc(1.325rem + 0.9vw);
+    font-size: 1.125rem; /* 1.125rem is small enough, so RFS won't rescale this */
+  }
+}
+
+.title {
+  font-size: calc(1.525rem + 3.3vw);
+}
+
+@media (min-width: 800px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 576px){
+  .title {
+    font-size: 15px;
+  }
+}
+
+
+.nav-link{
+  color: black;
+  margin-left: 5px;
+  padding-inline: 1px 2px 0;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  color:blue;
+}
+
+
+.jumbotron{
+  margin:2px;
+  margin-left:20px;
+  margin-top:10px;
+}
+
+.lead{
+  color:rgb(14, 12, 12);
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.display-4{
+  color:black;
+  font-style: italic;
+}
+
+ .dropdown-item{
+  color:Green;
+ }
+
+.jumbotron{
+  height: 850px;
+  border: 2px solid black;
+  border: red;
+  box-shadow: 2px 3px 2px 2px grey;
+  background-image: url(online\ shopping.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.cart{
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+}
+
+.cart img{
+  border: 2px solid black;
+}
+.cart p{
+  margin: 2px;
+  margin-left: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.cart2 p{
+  margin: 2px;
+  margin-left: 30px;
+  text-align: center;
+  font-style: italic;
+}
+.cart h5{
+  margin: 2px;
+  margin-left: 25px;
+  text-align: center;
+  font-style: italic;
+}
+.cart2 h5{
+  margin: 2px;
+  margin-left: 25px;
+  text-align: center;
+  font-style: italic;
+}
+
+.cart a{
+  margin: 2px;
+text-align: center;
+  margin-left: 30px;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.cart2{
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.cart2 img{
+ border: 2px solid black;
+}
+
+.cart2 a{
+  margin: 2px;
+text-align: center;
+  margin-left: 30px;
+  text-decoration: none;
+  font-style: italic;
+}
+
+main img{
+  border: 2px solid black;
+}
+main a{
+  text-decoration: none;
+  text-align: center;
+  font-style: italic;
+}
+main p{
+  text-overflow: ellipsis;
+  font-style: italic;
+  text-align: center;
+}
+main h5{
+  font-style: italic;
+  font-display:initial;
+}
+h3{
+  color:green;
+  font-style: italic;
+  font-size: xx-large;
+  margin:2px;
+  margin-top: 15px;
+}
+.success{
+  margin: 2px;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+footer a{
+  text-decoration: none;
+  color:green;
+}
+ 
+#form{
+ margin: 2px;
+ margin-left: 250px;
+ background-color: beige;
+}
+ </style>
+  </head>
+  <body>
+   <header>
+    
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Vist store</a>
+      </li>
+    </ul>
+   </header>
+   
+   <div class="col-md-8">
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="form">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  
+   </div>
+   
+   <main>
+    <div class="jumbotron">
+
+    </div>
+
+    <div class="cart" for="The items">
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="phone 1.jpg" class="moblie" alt="Smart phone">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Smart phones</h5>
+          <p>Here you can see and purchase the smart mobile phones of different brands with diffrent 
+            combinations, all describes you can see in details, visit.</p>
+          <a href="#" class="stretched-link">Visit store</a>
+        </div>
+      </div>
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="Laptop.jpg" class="w-100" alt="Laptop">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Laptops</h5>
+          <p>Here you can see and purchase the  Laptops of different brands with diffrent 
+            combinations, all describes you can see in details also you can purchase desktops, visit..</p>
+          <a href="#" class="stretched-link">Visit store</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart2">
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="soundbox.jpeg" class="w-100" alt="soundbox">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Sound Box</h5>
+          <p>Here you can see and purchase the  Soundbox like earphone, earpods wireless ,wired etc of different brands with diffrent 
+            combinations, all describes you can see in details, visit..</p>
+            <img src="soundbox2.jpg" class="w-100" alt="soundbox">
+          <a href="#" class="stretched-link">Visit store</a>
+        </div>
+      </div>
+      
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="smartwatch.png" class="w-100" alt="Smart watch">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Smart watch</h5>
+          <p>Here you can see and purchase the  smart watch (Digital)  and normal(Analog) of different brands with diffrent 
+            combinations, all describes you can see in details, visit..</p>
+            <img src="watch.jpg" class="w-50" alt="Smart watch">
+          <a href="#" class="stretched-link">Visit store</a>
+        </div>
+      </div>
+    </div>
+    <div class="row g-0 bg-body-secondary position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="Hardware.jpeg" class="w-100" alt="All parts">
+      </div>
+      <div class="col-md-6 p-4 ps-md-0">
+        <h5 class="mt-0">Hardware Parts</h5>
+        <p>Here you can see and purchase the  Hardware parts of different brands with diffrent 
+          combinations, all describes you can see in details, visit..</p>
+          <img src="Hardware2.jpeg" class="w-100" alt="All parts">
+        <a href="#" class="stretched-link">Visit store</a>
+      </div>
+    </div>
+<h3>Public Reviews:</h3>
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card d-block mx-auto">
+        <div class="card-body">
+          <h5 class="card-title">Name: Michiel Frank</h5>
+          <p class="card-text">I purchased many electrical goods, really good and the customer service is excellent.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card d-block mx-auto">
+        <div class="card-body">
+          <h5 class="card-title">Name: John Doe</h5>
+          <p class="card-text">Great experience! The product quality exceeded my expectations.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card d-block mx-auto">
+        <div class="card-body">
+          <h5 class="card-title">Name: Alice Brown</h5>
+          <p class="card-text">Fast delivery and amazing customer support. Highly recommended!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <div class="card d-block mx-auto">
+      <div class="card-body">
+        <h5 class="card-title">Name: Michiel Alfredo</h5>
+        <p class="card-text">I have purchased various electronics goods from here, good products and fast delivery!</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<h2>Register a form become a customer</h2>
+<form>
+  <div class="input-group">
+    <span class="input-group-text">First name</span>
+
+    <input type="text" aria-label="First name" class="form-control"> 
+
+    <span class="input-group-text"> Last name</span>
+
+    <input type="text" aria-label="Last name" class="form-control">
+  </div>
+  <br>
+  <div class="input-group sm-2">
+    <span class="input-group-text">Amout in $</span>
+    <input type="Pay-money" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" placeholder="As a membership minimum 2$">
+  </div>
+<br>
+<div class="form-floating mb-2">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email address</label>
+</div>
+<br>
+<div class="form-floating">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Password</label>
+</div>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+check me out
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Check data</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        All given data are true check once ?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">I have to change</button>
+        <button type="button" class="btn btn-primary">Ok save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="success">
+  <button type="button" class="btn btn-success">Add me</button>
+</div>
+</form>
+   </main>
+ 
+   <footer>
+    <div class="row g-0 bg-body-secondary position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+      Further details: 
+      </div>
+      <div class="col-md-6 p-4 ps-md-0">
+        <h5 class="mt-0">Contacts Us</h5>
+        <p>✅ User-Friendly Interface – The website is well-designed, easy to navigate, and has a smooth checkout process. <br>
+          ✅ Product Variety – Offers a wide range of products across different categories. <br>
+          ✅ Fast Shipping – Most orders are delivered on time, sometimes even earlier than expected. <br>
+          ✅ Customer Support – Responsive support team that resolves issues quickly.
+          </p>
+        <a href="#" class="stretched-link">Log in</a>
+      </div>
+    </div>
+   </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
